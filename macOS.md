@@ -61,7 +61,6 @@ install.packages('IRdisplay')
 install.packages('evaluate')
 ```
 
-
 ```
 install.packages('crayon')
 ```
@@ -75,14 +74,14 @@ install.packages('devtools')
 ```
 
 ```
-    install.packages('uuid')
+install.packages('uuid')
 ```
 
 ```
-    install.packages('digest')
+install.packages('digest')
 ```
 
-````
+```
 devtools::install_github('IRkernel/IRkernel')
 ```
 
@@ -93,6 +92,7 @@ IRkernel::installspec(user = FALSE)
 
 ### Paso 10
 Salga de **`R`** con:
+
 ```
 > quit()
 ```
