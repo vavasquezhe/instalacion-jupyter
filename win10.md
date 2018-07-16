@@ -79,60 +79,9 @@ estarán disponibles para su uso.
 
 
 ### Paso 13
-Instale los paquetes requeridos por Python ejecutando los siguientes
-comandos, uno a uno, en Bash:
+Instale los paquetes requeridos por Python. El listado se encuentra
+en el archivo [lista-python.md](lista-python.md)
 
-```
-pip install --upgrade pip
-```
-
-```
-pip install msgpack
-```
-
-```
-pip install jupyter_contrib_nbextensions
-```
-
-```
-jupyter contrib nbextension install --user
-```
-
-```
-pip install jupyter_dashboards
-```
-
-```
-jupyter dashboards quick-setup --sys-prefix
-```
-
-```
-pip install pixiedust_node
-```
-
-```
-pip install PyQt5
-```
-
-```
-pip install markdown2
-```
-
-```
-pip install Flask
-```
-
-```
-pip install Flask-WTF
-```
-
-```
-pip install pymysql
-```
-
-```
-pip install ipython-sql
-```
 
 ### Paso 13
 Para instalar el lenguaje R, ejecute el siguiente comando en Bash. El sistema
@@ -240,13 +189,18 @@ jupyter notebook
 En el menú **`New`** de Jupyter debe aparece la opción de crear notebooks que
 usen el lenguaje R.
 
-### Paso 22 (IBash)
+
+### Paso 22
+Instale los paquetes de R que aparecen en el archivo [lista-R.md](lista-R.md)
+
+
+### Paso 23 (IBash)
 Abra Bash y ejecute el siguiente comando:
 ```
 sudo chmod u=rwx,g=rwx,o=rwx /usr/local/share
 ```
 
-### Paso 23
+### Paso 24
 Instale **`IBash`**.
 
 ```
@@ -257,7 +211,7 @@ pip install bash_kernel
 python -m bash_kernel.install
 ```
 
-### Paso 24
+### Paso 25
 En el menú **`New`** de Jupyter debe aparece la opción de crear notebooks en
 Bash.
 

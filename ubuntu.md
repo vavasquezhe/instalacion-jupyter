@@ -36,58 +36,9 @@ sudo apt install python3-pip
 ```
 
 ### Paso 7
-Instale los paquetes requeridos por Python con los siguientes comandos:
-```
-pip install --upgrade pip
-```
+Instale los paquetes requeridos por Python. El listado se encuentra
+en el archivo [lista-python.md](lista-python.md)
 
-```
-pip install msgpack
-```
-
-```
-pip install jupyter_contrib_nbextensions
-```
-
-```
-jupyter contrib nbextension install --user
-```
-
-```
-pip install jupyter_dashboards
-```
-
-```
-jupyter dashboards quick-setup --sys-prefix
-```
-
-```
-pip install pixiedust_node
-```
-
-```
-pip install PyQt5
-```
-
-```
-pip install markdown2
-```
-
-```
-pip install Flask
-```
-
-```
-pip install Flask-WTF
-```
-
-```
-pip install pymysql
-```
-
-```
-pip install ipython-sql
-```
 
 ### Paso 8
 Instale **`IPython`** con:
