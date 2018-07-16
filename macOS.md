@@ -33,7 +33,7 @@ Una vez finalice la instalación, abra ``Terminal`` en
 **``Finder > Aplicaciones > Utilidades > Terminal``**.
 
 ### Paso 7
-En Terminal ejecute **`R`** para abrir el interprete del lenguaje R en la
+En Terminal ejecute `R` para abrir el interprete del lenguaje R en la
 consola de comandos.
 
 
@@ -41,15 +41,15 @@ consola de comandos.
 En `R` ejecute el siguiente comando para actualizar la configuración
 internacional en el interprete del lenguaje.
 
-```R
+```
 system('defaults write org.R-project.R force.LANG en_US.UTF-8')
 ```
 
 ### Paso 9
-Luego ejecute los siguientes comandos en el prompt de **`R`** para instalar
-el ``IRkernel``.
+Luego ejecute los siguientes comandos en el prompt de `R` para instalar
+el `IRkernel`.
 
-```R
+```
 install.packages('repr')
 ```
 
@@ -91,16 +91,16 @@ IRkernel::installspec(user = FALSE)
 
 
 ### Paso 10
-Salga de **`R`** con:
+Salga de `R` con:
 
 ```
 quit()
 ```
 
 ### Paso 11
-Verifique que el kernel de ``R`` fue instalado correctamente. Abra jupyter desde
+Verifique que el kernel de `R` fue instalado correctamente. Abra jupyter desde
 ``Terminal`` con el siguiente comando:
-```bash
+```
 jupyter notebook
 ```
 En el menú **`New`** de Jupyter debe aparece la opción de crear notebooks que
@@ -110,7 +110,7 @@ usen el lenguaje R.
 
 
 ### Paso 12
-Instale los paquetes de R que aparecen en el archivo [lista-R.md](lista-R.md)
+Instale los paquetes de `R` que aparecen en el archivo [lista-R.md](lista-R.md)
 
 
 ### Paso 13 (RStudio)
@@ -122,7 +122,7 @@ Ejecute el instalador.
 
 
 ### Paso 15 (IBash)
-Abra ``Terminal`` y ejecute los siguientes comandos para Instalar IBash.
+Abra `Terminal` y ejecute los siguientes comandos para Instalar IBash.
 ```
 pip install bash_kernel
 ```
