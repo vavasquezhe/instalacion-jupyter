@@ -30,7 +30,7 @@ de Cygwin.
 
 
 ### Paso 3
-Cuando finalice la instalación, abra el **`Terminal`** de Cywgin y ejecute el
+Cuando finalice la instalación, abra el Terminal de Cywgin y ejecute el
 comando
 ```
 pip3 install jupyter

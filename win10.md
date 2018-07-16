@@ -1,6 +1,6 @@
 # Configuración de Windows 10
 
-Esta guía describe el proceso de instalación del `Ubuntu on Windows` disponible
+Esta guía describe el proceso de instalación del *Ubuntu on Windows* disponible
 en Windows 10 Anniversary Update, Windows 10 Creators Update o posterior
 (Compilación 1607+). Seguidamente, se describe la instalación en el Bash de
 Anaconda (que incluye Python, IPython y Jupyter), el lenguaje R, RStudio y los
@@ -88,7 +88,7 @@ Para instalar el lenguaje R, ejecute el siguiente comando en Bash. El sistema
 pedirá su contraseña para poder continuar.
 
 ```
-sudo apt install r-base
+sudo apt-get install r-base
 ```
 
 ### Paso 14
@@ -165,7 +165,7 @@ devtools::install_github('IRkernel/IRkernel')
 Salga de R con el comando **`quit()`**
 
 ### Paso 18
-Abra R en la consola de comando:
+Abra R en la consola de comandos:
 
 ```
 R
@@ -179,7 +179,7 @@ IRkernel::installspec(user = FALSE)
 ```
 
 ### Paso 20
-Verifique que el kernel fue correctamente instalado. Abra jupyter desde Bash con
+Verifique que el kernel fue correctamente instalado. Abra Jupyter desde Bash con
 el siguiente comando:
 ```
 jupyter notebook
@@ -188,6 +188,8 @@ jupyter notebook
 ### Paso 21
 En el menú **`New`** de Jupyter debe aparece la opción de crear notebooks que
 usen el lenguaje R.
+
+
 
 
 ### Paso 22
