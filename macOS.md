@@ -49,10 +49,13 @@ internacional en el interprete del lenguaje.
 Luego ejecute los siguientes comandos en el prompt de **`R`** para instalar
 el ``IRkernel``.
 
+```
+install.packages('repr') ```
 
-    install.packages('repr')
 
-    install.packages('IRdisplay')
+```
+install.packages('IRdisplay')
+```
 
     install.packages('evaluate')
 
