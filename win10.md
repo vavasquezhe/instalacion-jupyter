@@ -40,7 +40,7 @@ abra el **`Windows PowerShell (Administrator)`**.
 Ejecute el siguiente comando en el PowerShell para activar el Subsistema de Linux
 
 ```
-Enable-WindowsOptionalFeature -Online - FeatureName Microsoft-Windows-Subsystem-Linux
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
 ### Paso 8
